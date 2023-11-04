@@ -217,3 +217,28 @@ body {
   text-align: justify;
   margin: 0 0 20px 0;
 }
+
+.page-body table {
+  /* background-color: blue; */
+  width: 100%;
+}
+
+.page-body th {
+  background-color: #111;
+  color: #f1f5f9;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para as células da tabela */
+.page-body td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para as linhas alternadas (opcional) */
+.page-body tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
