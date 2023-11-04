@@ -1,4 +1,4 @@
-export default function Historia() {
+export default function Page() {
   return (
     <div className="historia-body">
 
