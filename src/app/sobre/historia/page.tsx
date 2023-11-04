@@ -1,7 +1,8 @@
-"use client"
+'use client'
+
 export default function Page() {
   return (
-    <div className="historia-body">
+    <div className="page-body">
       <h1>Igreja Assembleia do Araretama</h1>
       <h2>História</h2>
       <p>No ano de 1991, em uma pequena sala improvisada, nasceu a Igreja Assembleia do Araretama.
