@@ -199,7 +199,7 @@ body {
 }
 
 .page-body {
-  max-width: 60%;
+  width: 50%;
   min-height: 100%;
 }
 
@@ -218,12 +218,12 @@ body {
   margin: 0 0 20px 0;
 }
 
-.page-body table {
+#table {
   /* background-color: blue; */
   width: 100%;
 }
 
-.page-body th {
+#table th {
   background-color: #111;
   color: #f1f5f9;
   font-weight: bold;
@@ -233,12 +233,47 @@ body {
 }
 
 /* Estilo para as células da tabela */
-.page-body td {
+#table td {
   padding: 10px;
   border: 1px solid #ccc;
 }
 
 /* Estilo para as linhas alternadas (opcional) */
-.page-body tr:nth-child(even) {
+#table tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+.agenda-body {
+  width: 100%;
+}
+
+.page-top {
+  height: 20vh;
+}
+
+.page-top h1,
+.agenda-body h2,
+.page-top p {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.page-botton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  position: relative;
+}
+
+#calendar {
+  width: 30vw;
+}
+
+#eventos {
+  width: 20vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

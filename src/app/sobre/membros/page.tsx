@@ -1,7 +1,5 @@
 'use client'
 
-import { traceDeprecation } from "process"
-
 const membros = [
   {"id": 1, "cargo": "PASTOR", "nome": "João da Silva"},
   {"id": 2, "cargo": "EVANGELISTA", "nome": "Gabriel Silva"},
@@ -22,7 +20,7 @@ export default function Page() {
       <h1>Igreja Assembleia do Araretama</h1>
       <h2>Membros</h2>
 
-      <table>
+      <table id="table">
         <thead>
           <tr>
             <th>Nome</th>

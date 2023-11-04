@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import { GiPrayer } from "react-icons/gi";
 
@@ -10,7 +12,7 @@ export default function Home() {
         <h3>Nossa missão é compartilhar a mensagem transformadora do Evangelho com amor e humildade.</h3>
       </section>
       <section className="home-midle">
-        <Link href="#" id="button-junte-se">Junte-se a nós.</Link>
+        <Link href="/agenda" id="button-junte-se">Junte-se a nós.</Link>
       </section>
       <section className="home-botton">
         <p>Cada pessoa é valiosa aos olhos de Deus.</p>
