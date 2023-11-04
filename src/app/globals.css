@@ -277,3 +277,64 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.calendar-navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#button-prev,
+#button-next {
+  background-color: #111;
+  border: none;
+  width: 60px;
+  height: 60px;
+  color: #f1f5f9;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transform: translateY(45px);
+}
+
+#button-prev {
+  border-radius: 10px 0 0 10px;
+}
+
+#button-next {
+  border-radius: 0 10px 10px 0;
+}
+
+#button-prev:hover,
+#button-next:hover {
+  background-color: #222;
+}
+
+.inactive {
+  color: blue;
+}
+
+.form-pedido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.controles {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.controles input {
+  height: 30px;
+  /* border-radius: 5px; */
+}
+
+.form-pedido button {
+  height: 35px;
+  width: 90px;
+  background-color: #111;
+  border: none;
+  border-radius: 8px;
+  color: #f1f5f9;
+  /* border-radius: 5px; */
+}
