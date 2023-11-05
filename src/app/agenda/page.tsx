@@ -5,20 +5,13 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import { AiOutlineCaretLeft, AiOutlineCaretRight } from "react-icons/ai"
 import { subMonths, addMonths, isAfter, isBefore,  format } from 'date-fns';
+import { eventos } from '../data/bd';
 
 export default function Page() {
 
   const calendarRef = useRef<FullCalendar>(null);
   const [dataAtual, setDataAtual] = useState(new Date());
   
-  const eventos = [
-    { title: 'Culto de Graça', date: '2023-11-05' },
-    { title: 'Culto de Ceia', date: '2023-11-11' },
-    { title: 'Culto de Graça', date: '2023-11-12' },
-    { title: 'Culto de Graça', date: '2023-11-19' },
-    { title: 'Culto de Graça', date: '2023-11-26' }
-  ]
-
   const limInf = subMonths(new Date(), 2);
   const limSup = addMonths(new Date(), 1);
 

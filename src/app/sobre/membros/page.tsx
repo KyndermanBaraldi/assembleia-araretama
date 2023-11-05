@@ -1,17 +1,6 @@
 'use client'
 
-const membros = [
-  {"id": 1, "cargo": "PASTOR", "nome": "João da Silva"},
-  {"id": 2, "cargo": "EVANGELISTA", "nome": "Gabriel Silva"},
-  {"id": 3, "cargo": "PRESBÍTERO", "nome": "Lucas Oliveira"},
-  {"id": 4, "cargo": "PRESBÍTERO", "nome": "Mateus Santos"},
-  {"id": 5, "cargo": "DIÁCONO", "nome": "André Pereira"},
-  {"id": 6, "cargo": "DIÁCONO", "nome": "Pedro Costa"},
-  {"id": 7, "cargo": "LÍDER", "nome": "Rafael Lima"},
-  {"id": 8, "cargo": "OBREIRO", "nome": "Felipe Almeida"},
-  {"id": 9, "cargo": "OBREIRO", "nome": "Daniel Ferreira"},
-  {"id": 10, "cargo": "OBREIRO", "nome": "Matheus Oliveira"}
-]
+import { membros } from "@/app/data/bd"
 
 export default function Page() {
   return (
