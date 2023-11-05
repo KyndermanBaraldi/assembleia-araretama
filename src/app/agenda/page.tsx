@@ -5,7 +5,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import { AiOutlineCaretLeft, AiOutlineCaretRight } from "react-icons/ai"
 import { subMonths, addMonths, isAfter, isBefore,  format } from 'date-fns';
-import { eventos } from '../data/bd';
+import { eventos } from '@/data/bd';
 
 export default function Page() {
 

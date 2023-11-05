@@ -1,6 +1,6 @@
 'use client'
 
-import { membros } from "@/app/data/bd"
+import { membros } from "@/data/bd"
 
 export default function Page() {
   return (
